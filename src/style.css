@@ -27,9 +27,7 @@
     padding-top: 50px;
     color: rgb(36,36,36);
     font-size: 16px;
-
 }
-
 
 .accordion .accordion-item .cintoAmarillo {
     background: rgb(255, 255, 0);
@@ -64,7 +62,6 @@
     width: auto;
     border-radius: 20px;
     margin-bottom: 10px;
-
 }
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal {
@@ -73,7 +70,6 @@
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical {
     height: 400px;
