@@ -27,11 +27,18 @@
     padding: 20px;
 }
 
-.fotoPortada {
+.fotosDePortada .fotoPortadaHorizontal {
     width: 450px;
     height: auto;
     border-radius: 25px;
-    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.fotosDePortada .fotoPortadaVertical {
+    width: 450px;
+    height: auto;
+    border-radius: 25px;
+    padding-bottom: 10px;
 }
 
 .accordion .accordion-item .accordion-header .accordion-button {
@@ -64,84 +71,94 @@
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .subtitulo{
     background-color: rgb(62, 62, 62);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
+/*Multimedia Vertical */
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto {
     height: auto;
-    width: 175px;
-    border-radius: 20px;
+    width: 60vw;
+    border-radius: 25px;
     margin-bottom: 15px;
     transition: width 2s;
 }
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto:hover {
     height: auto;
-    width: 300px;
-    border-radius: 15px;
-    box-shadow: 5px;
-
-}
-
-.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal {
-    height: 125px;
-    width: auto;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    transition: height 2s;
-}
-
-.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal:hover {
-    height: 175px;
-    width: auto;
-    margin-bottom: 20px;
-    border-radius: 15px;
+    width: 90vw;
 }
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical {
-    height: 175px;
-    width: auto;
-    border-radius: 20px;
+    height: auto;
+    width: 60vw;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    transition: width 2s;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical:hover {
+    height: auto;
+    width: 90vw;
     margin-bottom: 15px;
 }
+
+/*Multimedia Horizontal*/
+.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal {
+       height: auto;
+       width: 60vw;
+       margin-bottom: 20px;
+       border-radius: 25px;
+       transition: width 2s;
+   }
+   
+.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal:hover {
+       height: auto;
+       width: 90vw;
+   }
 
 .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoHorizontal {
-    height: 350px;
-    width: auto;
+    height: auto;
+    width: 60vw;
     border-radius: 20px;
     margin-bottom: 15px;
+    transition: width 2s;
+}
+
+.accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoHorizontal:hover {
+    height: auto;
+    width: 90vw;
+
 }
 
 
-/* Desktop View */
+/* DESKTOP VIEW */
 
 @media screen and  (min-width: 1200px) { 
 
     .cabecera .cabeceralogo {
-        height: 150px;
+        height: 25vh;
         width: auto;
         margin: 10px;
     }
 
     .cabecera .titulo {
-        font-size: 62px;
+        font-size: 6vh;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 5vw;
     }
 
     .fotosDePortada {
         justify-content: space-between;
-        padding-left: 20px;
-        padding-right: 20px;
+
     }
 
     .fotosDePortada .fotoPortadaVertical {
-        height: 1000px;
+        width: 45vw;
         margin-right: 50px;
     }
 
     .fotosDePortada .fotoPortadaHorizontal {
-        height: 1000px;
+        width: 45vw;
         margin-left: 50px;
     }
 
@@ -158,7 +175,7 @@
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto {
-        height: 700px;
+        height: 40vw;
         width: auto;
         margin-bottom: 40px;
         transition: box-shadow 2s, height 2s;
@@ -166,7 +183,7 @@
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto:hover {
-        height: 900px;
+        height: 45vw;
         width: auto;
         box-shadow: 15px 15px 5px rgb(63, 63, 63);
     }
@@ -186,10 +203,19 @@
     }
 
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical {
-        height: 700px;
+        height: 40vw;
         width: auto;
         border-radius: 20px;
         margin-bottom: 40px;
+        transition: box-shadow 2s, height 2s;
+    }
+
+    .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical:hover {
+        height: 45vw;
+        width: auto;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        box-shadow: 15px 15px 5px rgb(63, 63, 63);
     }
 
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .subtitulo{
