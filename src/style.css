@@ -175,7 +175,7 @@
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto {
-        height: 40vw;
+        height: 38vw;
         width: auto;
         margin-bottom: 40px;
         transition: box-shadow 2s, height 2s;
@@ -183,13 +183,13 @@
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .foto:hover {
-        height: 45vw;
+        height: 42vw;
         width: auto;
         box-shadow: 15px 15px 5px rgb(63, 63, 63);
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal {
-        height: 900px;
+        height: 30vw;
         width: auto;
         margin-bottom: 40px;
         border-radius: 15px;
@@ -197,13 +197,13 @@
     }
     
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .fotoHorizontal:hover {
-        height: 1200px;
+        height: 42vw;
         width: auto;
         box-shadow: 15px 15px 5px rgb(63, 63, 63);
     }
 
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical {
-        height: 40vw;
+        height: 38vw;
         width: auto;
         border-radius: 20px;
         margin-bottom: 40px;
@@ -211,7 +211,7 @@
     }
 
     .accordion .accordion-item .accordion-collapse .accordion-body .contenidoEvento .videoVertical:hover {
-        height: 45vw;
+        height: 42vw;
         width: auto;
         border-radius: 20px;
         margin-bottom: 40px;
